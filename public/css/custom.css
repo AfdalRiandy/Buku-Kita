@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav li {
+    margin-right: 20px; /* Menambahkan jarak antar item */
+    transition: border-bottom 0.3s; /* Efek transisi untuk garis bawah */
+}
+
+.navbar-light .navbar-brand {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    transition: color 0.3s ease;
+    color: rgb(255, 178, 178);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    transition: color 0.3s ease;
+    color: rgb(255, 178, 178);
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #198754;
+}
+
+.card-img {
+    height: 140px;
+    margin: 10px; /* Margin sekitar gambar */
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+    border-radius: 5px; /* Opsional: menambahkan sedikit radius pada gambar */
+}
+
+/*di bagian button */
+.btn-info {
+    color: #fff;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #0d0d0d;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+/*di bagian button */
